@@ -1,2 +1,1 @@
-# nightz.github.io
-da nightz page
+this is literally just the repository for my webpage lol
