@@ -12,20 +12,20 @@ body {
 }
 
 body {
-	background-image: url(img/background.gif) ;
-	font-family: font;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: center top;
-	background-attachment: fixed;
-	background-color: #27e3da;
-	color: #fff;
-	font-size: 18px;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-height: 100vh;
+    background-image: url(img/background.gif);
+    font-family: font;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #27e3da;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
 }
 
 a {
