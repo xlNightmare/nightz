@@ -25,6 +25,10 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
+	absolute;
+	Left: 50%;
+	Top: 50%;
+	Transform: translate(-50%,-50%);
 }
 
 a {
