@@ -43,8 +43,8 @@ a:visited {
 	color: #fff;
 }
 
-.mydiv {
-    display: flex;
+.mydiv{
+  display: flex;
     align-items: center;
     justify-content: center;
 
