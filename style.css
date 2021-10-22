@@ -12,6 +12,7 @@ body {
 }
 
 body {
+	background-image: url(img/background.gif) ;
 	font-family: font;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
