@@ -25,10 +25,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100vh;
-	absolute;
-	Left: 50%;
-	Top: 50%;
-	Transform: translate(-50%,-50%);
 }
 
 a {
@@ -44,6 +40,15 @@ a:visited {
 	text-decoration: none;
 	outline: none;
 	color: #fff;
+}
+
+.mydiv {
+    background-image: url('img/background.gif');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .image {
@@ -108,4 +113,5 @@ p {
 ::-ms-input-placeholder {
 	/* Microsoft Edge */
 	color: #fff;
+	
 } 
