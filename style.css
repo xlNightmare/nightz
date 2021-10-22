@@ -43,7 +43,7 @@ a:visited {
 }
 
 .image {
-	display: none;
+	display: flex;
 	margin-top: 50px;
 	border-radius: 50%;
 }
