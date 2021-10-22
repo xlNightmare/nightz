@@ -43,8 +43,6 @@ a:visited {
 }
 
 .mydiv {
-    background-image: url('img/background.gif');
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
