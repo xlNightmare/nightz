@@ -15,8 +15,8 @@ body {
 background-image: url(img/background.gif);
     font-family: font;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: stretch;
     background-attachment: fixed;
     background-color: #27e3da;
     color: #fff;
