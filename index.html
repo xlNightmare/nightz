@@ -1,35 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
+    <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-
     <title>etrnal.</title>
-    <link href="style.css" rel="stylesheet" />
+
+    <!-- Embedded CSS -->
+    <style>
+      @font-face {
+        font-family: "font";
+        src: url("https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2");
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        background-image: url("img/background.gif");
+        font-family: "font", sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: #27e3da;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 100vh;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      a,
+      a:hover,
+      a:focus,
+      a:active,
+      a:visited {
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+      }
+
+      .mydiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .image {
+        display: flex;
+        margin-top: 50px;
+        border-radius: 50%;
+      }
+
+      .name {
+        font-size: 3em;
+        margin-top: -25px;
+        margin-bottom: 25px;
+      }
+
+      p {
+        margin-bottom: 50px;
+      }
+
+      .icons img {
+        position: relative;
+        height: 20px;
+        width: auto;
+        top: -2px;
+      }
+
+      .icons a:not(:last-of-type) {
+        margin-right: 20px;
+      }
+
+      #show {
+        cursor: default;
+      }
+
+      #show span#discord-name {
+        display: inline-block;
+      }
+
+      #show:hover span#discord-name {
+        display: none;
+      }
+
+      #show span#discord-tag {
+        display: none;
+      }
+
+      #show:hover span#discord-tag {
+        display: inline-block;
+      }
+
+      ::placeholder {
+        color: #fff;
+        opacity: 1;
+      }
+
+      :-ms-input-placeholder {
+        color: #fff;
+      }
+
+      ::-ms-input-placeholder {
+        color: #fff;
+      }
+    </style>
   </head>
 
   <body>
-  <div class="mydiv">
-    Hello World!
-</div>
+    <div class="mydiv">
+    
+    </div>
+
     <p class="name">etrnal</p>
+
     <div class="icons">
-      <a id=show>
-        <span id="one"> discord </span>
-        <span id="two"> etrnaalx </span>
+      <a href="#" id="show">
+        <span id="discord-name">discord</span>
+        <span id="discord-tag">etrnaalx</span>
       </a>
-      <a href="https://steamcommunity.com/id/xlnightmare/"> steam </a>
-      <a href="https://twitch.com/etrnaal"> twitch </a>
-      <a href="https://twitter.com/etrnaalx"> twitter </a>
-      <a href="https://www.youtube.com/channel/UCTa9KF99_lGUGfSnKHazjcg"> youtube </a>
-      <a href="https://reizu.moe"> css by reizu </a>
-      <a href="https://i.pinimg.com/originals/09/65/dc/0965dcb3bfe270f1e3dd17524d0c14cc.gif"> onlyfans </a>
+      <a href="https://steamcommunity.com/id/xlnightmare/">steam</a>
+      <a href="https://twitch.com/etrnaal">twitch</a>
+      <a href="https://twitter.com/etrnaalx">twitter</a>
+      <a href="https://www.youtube.com/channel/UCTa9KF99_lGUGfSnKHazjcg">youtube</a>
+      <a href="https://reizu.moe">css by reizu</a>
+      <a href="https://i.pinimg.com/originals/09/65/dc/0965dcb3bfe270f1e3dd17524d0c14cc.gif">onlyfans</a>
     </div>
   </body>
 </html>
